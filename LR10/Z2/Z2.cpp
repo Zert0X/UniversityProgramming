@@ -1,20 +1,82 @@
-﻿// Z2.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
-//
-
-#include <iostream>
-
+﻿#include <iostream>
+#include <time.h>
+#include <cstdlib>
+#include <math.h>
+using namespace std;
 int main()
 {
-    std::cout << "Hello World!\n";
+	const int m = 6, n = 6;
+	int A[m][n];
+	//Initializing matrix with random digital
+	for (int i = 0; i < m; i++) {
+		for (int j = 0; j < n; j++) {
+			A[i][j] = rand() % 100 - 50;
+		}
+	}
+
+	//Printing unsorted matrix
+	printf("%16s", "Unsorted matrix:\n");
+	for (int i = 0; i < m; i++) {
+		printf("%31s","-------------------------------\n|");
+		for (int j = 0; j < n; j++) {
+			printf("%3d%2s", A[i][j], " |");
+		}
+		printf("\n");
+	}
+	printf("%31s", "-------------------------------\n");
+	int current = 0; // for current row in matrix
+	bool cycle=true; // for cycle between two variations of sorting
+	while (current < m) {
+		//descendig sort
+		if (cycle)
+			for (int i = 0; i < n - 1; i++) {
+				for (int j = 0; j < n - i - 1; j++) {
+					if ((A[current][j] < A[current][j+1])) {
+						int temp = A[current][j];
+						A[current][j] = A[current][j + 1];
+						A[current][j + 1] = temp;
+					}
+					if ((A[current+1][j] < A[current+1][j + 1])) {
+						int temp = A[current+1][j];
+						A[current+1][j] = A[current+1][j + 1];
+						A[current+1][j + 1] = temp;
+					}
+				}
+			}
+		//ascending sort
+		if (!cycle)
+			for (int i = 0; i < n - 1; i++) {
+				for (int j = 0; j < n - i - 1; j++) {
+					if ((A[current][j] > A[current][j+1])) {
+						int temp = A[current][j];
+						A[current][j] = A[current][j + 1];
+						A[current][j + 1] = temp;
+					}
+					if ((A[current + 1][j] > A[current + 1][j + 1])) {
+						int temp = A[current + 1][j];
+						A[current + 1][j] = A[current + 1][j + 1];
+						A[current + 1][j + 1] = temp;
+					}
+				}
+			}
+		//cycle switch
+		if (cycle)
+			cycle = false;
+		else
+			cycle = true;
+		//current incriment 
+		current+=2;
+		
+	}
+
+	//Printing Sorted matrix
+	printf("%16s", "Sorted matrix:\n");
+	for (int i = 0; i < m; i++) {
+		printf("%31s", "-------------------------------\n|");
+		for (int j = 0; j < n; j++) {
+			printf("%3d%2s", A[i][j], " |");
+		}
+		printf("\n");
+	}
+	printf("%31s", "-------------------------------\n");
 }
-
-// Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
-// Отладка программы: F5 или меню "Отладка" > "Запустить отладку"
-
-// Советы по началу работы 
-//   1. В окне обозревателя решений можно добавлять файлы и управлять ими.
-//   2. В окне Team Explorer можно подключиться к системе управления версиями.
-//   3. В окне "Выходные данные" можно просматривать выходные данные сборки и другие сообщения.
-//   4. В окне "Список ошибок" можно просматривать ошибки.
-//   5. Последовательно выберите пункты меню "Проект" > "Добавить новый элемент", чтобы создать файлы кода, или "Проект" > "Добавить существующий элемент", чтобы добавить в проект существующие файлы кода.
-//   6. Чтобы снова открыть этот проект позже, выберите пункты меню "Файл" > "Открыть" > "Проект" и выберите SLN-файл.
