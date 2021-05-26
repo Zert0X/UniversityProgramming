@@ -1,0 +1,14 @@
+﻿  Z2.cpp
+H:\source\repos\UniversityProgramming\LR13\Z2\Z2.cpp(33,20): warning C4018: <: несоответствие типов со знаком и без знака
+H:\source\repos\UniversityProgramming\LR13\Z2\Z2.cpp(39,34): warning C4244: аргумент: преобразование "_Ty" в "int", возможна потеря данных
+H:\source\repos\UniversityProgramming\LR13\Z2\Z2.cpp(39,34): warning C4244:         with
+H:\source\repos\UniversityProgramming\LR13\Z2\Z2.cpp(39,34): warning C4244:         [
+H:\source\repos\UniversityProgramming\LR13\Z2\Z2.cpp(39,34): warning C4244:             _Ty=fpos_t
+H:\source\repos\UniversityProgramming\LR13\Z2\Z2.cpp(39,34): warning C4244:         ]
+H:\source\repos\UniversityProgramming\LR13\Z2\Z2.cpp(47,20): warning C4018: <: несоответствие типов со знаком и без знака
+H:\source\repos\UniversityProgramming\LR13\Z2\Z2.cpp(53,34): warning C4244: аргумент: преобразование "_Ty" в "int", возможна потеря данных
+H:\source\repos\UniversityProgramming\LR13\Z2\Z2.cpp(53,34): warning C4244:         with
+H:\source\repos\UniversityProgramming\LR13\Z2\Z2.cpp(53,34): warning C4244:         [
+H:\source\repos\UniversityProgramming\LR13\Z2\Z2.cpp(53,34): warning C4244:             _Ty=fpos_t
+H:\source\repos\UniversityProgramming\LR13\Z2\Z2.cpp(53,34): warning C4244:         ]
+  Z2.vcxproj -> H:\source\repos\UniversityProgramming\LR13\Z2\Debug\Z2.exe
