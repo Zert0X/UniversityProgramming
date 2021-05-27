@@ -1,0 +1,3 @@
+﻿  Z1.cpp
+H:\source\repos\UniversityProgramming\LR17\Z1\Z1.cpp(36,43): warning C4244: аргумент: преобразование "fpos_t" в "int", возможна потеря данных
+  Z1.vcxproj -> H:\source\repos\UniversityProgramming\LR17\Z1\Debug\Z1.exe
