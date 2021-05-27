@@ -1,5 +1,5 @@
 Student1{Name:Mark; Birthday:20.12.1991; First_Mark:5; Second_Mark:5; Third_Mark:3;}
-Student2{Name:Alice; Birthday:04.01.2002; First_Mark:5; Second_Mark:5; Third_Mark:5;}
+Student2{Name:Alice; Birthday:14.01.2002; First_Mark:5; Second_Mark:5; Third_Mark:5;}
 Student3{Name:Nikita; Birthday:21.11.2001; First_Mark:3; Second_Mark:3; Third_Mark:3;}
 Student4{Name:Oleg; Birthday:22.10.2000; First_Mark:4; Second_Mark:5; Third_Mark:3;}
 Student5{Name:Vladimir; Birthday:14.03.2002; First_Mark:4; Second_Mark:4; Third_Mark:4;}
