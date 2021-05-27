@@ -51,18 +51,20 @@ int main()
 	}
 	for (int i = 0; i < student_data.size(); i++) {
 		if (counter != 0) {
-			string name = student_data[i].name;
-			string birthday_date = student_data[i].birthday_date;
-			double first_mark = student_data[i].first_mark;
-			double second_mark = student_data[i].second_mark;
-			double third_mark = student_data[i].third_mark;
-			cout << "Student " << ":"
-				<< "\nName:" << name
-				<< "\nBirthday date:" << birthday_date
-				<< "\nFirst mark: " << first_mark
-				<< "\nSecond mark: " << second_mark
-				<< "\nThird mark: " << third_mark
-				<< "\n" << "---------------\n";
+				string name = student_data[i].name;
+				string birthday_date = student_data[i].birthday_date;
+				double first_mark = student_data[i].first_mark;
+				double second_mark = student_data[i].second_mark;
+				double third_mark = student_data[i].third_mark;
+			if ((first_mark + second_mark + third_mark) / 3. >= 4.) {
+				cout << "Student " << ":"
+					<< "\nName:" << name
+					<< "\nBirthday date:" << birthday_date
+					<< "\nFirst mark: " << first_mark
+					<< "\nSecond mark: " << second_mark
+					<< "\nThird mark: " << third_mark
+					<< "\n" << "---------------\n";
+			}
 		}
 		else{
 			cout << "There is no student with average mark 4.0";

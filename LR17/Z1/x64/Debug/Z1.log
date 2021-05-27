@@ -1,5 +1,5 @@
 ﻿  Z1.cpp
-H:\source\repos\UniversityProgramming\LR17\Z1\Z1.cpp(109,116): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
-H:\source\repos\UniversityProgramming\LR17\Z1\Z1.cpp(110,106): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
-H:\source\repos\UniversityProgramming\LR17\Z1\Z1.cpp(112,47): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+H:\source\repos\UniversityProgramming\LR17\Z1\Z1.cpp(123,116): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+H:\source\repos\UniversityProgramming\LR17\Z1\Z1.cpp(124,106): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+H:\source\repos\UniversityProgramming\LR17\Z1\Z1.cpp(126,47): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
   Z1.vcxproj -> H:\source\repos\UniversityProgramming\LR17\Z1\x64\Debug\Z1.exe
