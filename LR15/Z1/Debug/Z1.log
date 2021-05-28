@@ -1,0 +1,8 @@
+﻿  Z1.cpp
+H:\source\repos\UniversityProgramming\LR15\Z1\Z1.cpp(8,6): warning C4101: zero_arr: неиспользованная локальная переменная
+H:\source\repos\UniversityProgramming\LR15\Z1\Z1.cpp(35): message : выполняется компиляция ссылки на экземпляр шаблон функции "void transform<int>(int *,T)"
+H:\source\repos\UniversityProgramming\LR15\Z1\Z1.cpp(35): message :         with
+H:\source\repos\UniversityProgramming\LR15\Z1\Z1.cpp(35): message :         [
+H:\source\repos\UniversityProgramming\LR15\Z1\Z1.cpp(35): message :             T=int
+H:\source\repos\UniversityProgramming\LR15\Z1\Z1.cpp(35): message :         ]
+  Z1.vcxproj -> H:\source\repos\UniversityProgramming\LR15\Z1\Debug\Z1.exe
