@@ -15,7 +15,7 @@ int main()
 	for (int i = 0; i < N; i++) {
 		cout << "\n";
 		for (int j = 0; j < M; j++) {
-			T[i][j] = rand() % 100 - 210;
+			T[i][j] = rand() % 100 - 50;
 			printf("|%3d", T[i][j]);
 		}
 		printf("|");
