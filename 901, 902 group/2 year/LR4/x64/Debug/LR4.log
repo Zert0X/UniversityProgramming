@@ -1,0 +1,3 @@
+﻿  LR4.cpp
+H:\source\repos\UniversityProgramming\901, 902 group\2 year\LR4\LR4.cpp(101): warning C4715: Class_Rectangle::area: значение возвращается не при всех путях выполнения
+  LR4.vcxproj -> H:\source\repos\UniversityProgramming\901, 902 group\2 year\LR4\x64\Debug\LR4.exe
