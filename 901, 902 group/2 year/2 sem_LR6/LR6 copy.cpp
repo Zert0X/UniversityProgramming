@@ -1,6 +1,16 @@
 #include <stdio.h>
 #include <iostream>
-#include <cstring>
+const char* strcat(const char* a, const char* b){
+    size_t al = 0, bl = 0;
+    char *r, *c;
+    while(a[al++]);
+        while(b[bl++]);
+        r = c = new char[al+bl-1];
+    while(*c++ = *a++);
+        --c;
+    while(*c++ = *b++);
+        return r;
+}
 class Class_Msg{
     public:
         void set_msg(const char* msg){
@@ -12,20 +22,17 @@ class Class_Msg{
 
         Class_Msg operator + (Class_Msg in_msg){
             Class_Msg res;
-            char *res_msg = new char[strlen(_msg)+strlen(in_msg._msg)+1];
-            strcpy(res_msg,this->_msg);
-            strcat(res_msg,in_msg._msg);
+            const char *res_msg=strcat(this->_msg,in_msg._msg);;
             res.set_msg(res_msg);
             return res;
         }
         Class_Msg operator + (const char* in_msg){
             Class_Msg res;
-            char *res_msg = new char[strlen(_msg)+strlen(in_msg)+1];
-            strcpy(res_msg,this->_msg);
-            strcat(res_msg,in_msg);
+            const char *res_msg=strcat(this->_msg,_msg);;
             res.set_msg(res_msg);
             return res;
         }
+
         bool operator == (const char* in_msg){
             return (this->_msg == in_msg);
         }
