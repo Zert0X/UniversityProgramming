@@ -1,0 +1,5 @@
+﻿  coursework.cpp
+H:\source\repos\UniversityProgramming\901, 902 group\coursework\coursework.cpp(243,20): warning C4018: <: несоответствие типов со знаком и без знака
+H:\source\repos\UniversityProgramming\901, 902 group\coursework\coursework.cpp(245,21): warning C4018: <: несоответствие типов со знаком и без знака
+H:\source\repos\UniversityProgramming\901, 902 group\coursework\coursework.cpp(246,22): warning C4018: <: несоответствие типов со знаком и без знака
+  coursework.vcxproj -> H:\source\repos\UniversityProgramming\901, 902 group\coursework\Debug\coursework.exe
